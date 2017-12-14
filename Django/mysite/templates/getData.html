@@ -1,0 +1,45 @@
+<title> '{{ type }}' table list </title>
+
+<h1> '{{ type }}' table list</h1>
+
+<table border="1">
+
+    <tr>
+         {% for title in titles %}
+             <th>  {{ title }}  </th>
+        {% endfor %}
+    </tr>
+
+    {% for user in rows_list %}
+    <tr>
+        {% if user.0 %}
+        <td>  {{ user.0 }} </td> {% endif %}
+        {% if user.1 %}
+        <td>  {{ user.1 }} </td> {% endif %}
+        {% if user.2 %}
+        <td>  {{ user.2 }} </td> {% endif %}
+        {% if user.3 %}
+        <td>  {{ user.3 }} </td> {% endif %}
+        {% if user.4 %}
+        <td>  {{ user.4}} </td> {% endif %}
+        {% if user.5 %}
+        <td>  {{ user.5 }} </td> {% endif %}
+        {% if user.6 %}
+        <td>  {{ user.6 }} </td> {% endif %}
+        {% if user.7 %}
+        <td>  {{ user.7 }} </td> {% endif %}
+        {% if user.8 %}
+        <td>  {{ user.8 }} </td> {% endif %}
+    </tr>
+    {% endfor %}
+</table>
+
+
+<div>
+    {% if message %} {{ message }} {% endif %}
+</div>
+
+<br />
+<br />
+
+<a href="../../index">Index</a>

@@ -1,0 +1,574 @@
+<title> CS-5423-60935 - Principles Database Systems -SQL-Part IV</title>
+
+<style type="text/css">
+    .div-table {
+        display: table;
+        width: auto;
+        border: 0px solid #666666;
+        border-spacing: 5px; /* cellspacing:poor IE support for  this */
+    }
+
+    .div-table-row {
+        display: table-row;
+        width: auto;
+        clear: both;
+    }
+
+    .div-table-col {
+        float: left; /* fix for  buggy browsers */
+        display: table-column;
+        width: 200px;
+    }
+</style>
+
+
+
+<h1> CS-5423-60935 - Principles Database Systems -SQL-Part IV</h1>
+
+
+<div class="div-table">
+    <div class="div-table-row">
+        <div class="div-table-col" align="center">
+            <table border="1">
+
+                <tr>
+                    <th>
+                        Users
+                    </th>
+                </tr>
+                   <tr>
+                    <td>
+                        <a href="../../user/newreport">User Report</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../user/new">Add new user</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../user/selecttable">Select</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../user/createtable">Create</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../user/inserttable">Insert</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>  <a href="../../user/deleterecords">Delete records</a></td>
+                </tr>
+                <tr>
+                    <td>  <a href="../../user/deletetable">Delete</a></td>
+                </tr>
+            </table>
+        </div>
+        <div class="div-table-col">
+            <table border="1">
+
+                <tr>
+                    <th>
+                        User type
+                    </th>
+                </tr>
+
+                <tr>
+                    <td>
+                        <a href="../../usertype/selecttable">Select</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../usertype/createtable">Create</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../usertype/inserttable">Insert</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>  <a href="../../usertype/deleterecords">Delete records</a></td>
+                </tr>
+                <tr>
+                    <td>  <a href="../../usertype/deletetable">Delete</a></td>
+                </tr>
+            </table>
+        </div>
+        <div class="div-table-col">
+            <table border="1">
+
+                <tr>
+                    <th>
+                        Department
+                    </th>
+                </tr>
+
+                <tr>
+                    <td>
+                        <a href="../../department/selecttable">Select</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../department/createtable">Create </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../department/inserttable">Insert</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>  <a href="../../department/deleterecords">Delete records</a></td>
+                </tr>
+                <tr>
+                    <td>  <a href="../../department/deletetable">Delete </a></td>
+                </tr>
+            </table>
+        </div>
+        <div class="div-table-col">
+            <table border="1">
+
+                <tr>
+                    <th>
+                        Employees
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../employee/selecttable">Select</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../employee/createtable">Create </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+
+                        <a href="../../employee/inserttable">Insert</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>  <a href="../../employee/deleterecords">Delete records</a></td>
+                </tr>
+
+                <tr>
+                    <td>  <a href="../../employee/deletetable">Delete table</a></td>
+                </tr>
+            </table>
+        </div>
+        <div class="div-table-col">
+            <table border="1">
+
+                <tr>
+                    <th>
+                        Customer
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../customer/selecttable">Select</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../customer/createtable">Create </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../customer/inserttable">Insert</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>  <a href="../../customer/deleterecords">Delete records</a></td>
+                </tr>
+
+                <tr>
+                    <td>  <a href="../../customer/deletetable">Delete table</a></td>
+                </tr>
+            </table>
+        </div>
+        <div class="div-table-col">
+            <table border="1">
+
+                <tr>
+                    <th>
+                        Supplier
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../supplier/selecttable">Select</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../supplier/createtable">Create </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../supplier/inserttable">Insert</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>  <a href="../../supplier/deleterecords">Delete records</a></td>
+                </tr>
+
+                <tr>
+                    <td>  <a href="../../supplier/deletetable">Delete table</a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="div-table-row">
+        <div class="div-table-col" align="center">
+            <table border="1">
+
+                <tr>
+                    <th>
+                        ProductTypes
+                    </th>
+                </tr>
+
+                <tr>
+                    <td>
+                        <a href="../../producttype/selecttable">Select</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../producttype/createtable">Create</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../producttype/inserttable">Insert</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>  <a href="../../producttype/deleterecords">Delete records</a></td>
+                </tr>
+                <tr>
+                    <td>  <a href="../../producttype/deletetable">Delete</a></td>
+                </tr>
+            </table>
+        </div>
+        <div class="div-table-col">
+            <table border="1">
+
+                <tr>
+                    <th>
+                        Product
+                    </th>
+                </tr>
+
+                <tr>
+                    <td>
+                        <a href="../../product/selecttable">Select</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../product/createtable">Create</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../product/inserttable">Insert</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>  <a href="../../product/deleterecords">Delete records</a></td>
+                </tr>
+                <tr>
+                    <td>  <a href="../../product/deletetable">Delete</a></td>
+                </tr>
+            </table>
+        </div>
+        <div class="div-table-col">
+            <table border="1">
+
+                <tr>
+                    <th>
+                        Product Supplier
+                    </th>
+                </tr>
+
+                <tr>
+                    <td>
+                        <a href="../../productsupplier/selecttable">Select</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../productsupplier/createtable">Create</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../productsupplier/inserttable">Insert</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>  <a href="../../productsupplier/deleterecords">Delete records</a></td>
+                </tr>
+                <tr>
+                    <td>  <a href="../../productsupplier/deletetable">Delete</a></td>
+                </tr>
+            </table>
+        </div>
+        <div class="div-table-col">
+            <table border="1">
+
+                <tr>
+                    <th>
+                        Order
+                    </th>
+                </tr>
+<tr>
+                    <td>
+                        <a href="../../order/newreport">Orders by ID  Report</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../order/selecttable">Select</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../order/createtable">Create</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../order/inserttable">Insert</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>  <a href="../../order/deleterecords">Delete records</a></td>
+                </tr>
+                <tr>
+                    <td>  <a href="../../order/deletetable">Delete</a></td>
+                </tr>
+            </table>
+        </div>
+        <div class="div-table-col">
+            <table border="1">
+
+                <tr>
+                    <th>
+                        Order detail
+                    </th>
+                </tr>
+
+                <tr>
+                    <td>
+                        <a href="../../orderdetail/selecttable">Select</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../orderdetail/createtable">Create</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../orderdetail/inserttable">Insert</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>  <a href="../../orderdetail/deleterecords">Delete records</a></td>
+                </tr>
+                <tr>
+                    <td>  <a href="../../orderdetail/deletetable">Delete</a></td>
+                </tr>
+            </table>
+        </div>
+		 <div class="div-table-col">
+            <table border="1">
+
+                <tr>
+                    <th>
+                        User Titles <br/>
+						(using stored procedurs)
+                    </th>
+                </tr>
+
+                <tr>
+                    <td>
+                        <a href="../../usertitle/selectTable">Select</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../usertitle/createTable">Create</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../usertitle/insertDataToTable">Insert</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>  <a href="../../usertitle/addColumnToTable">Add columns</a></td>
+                </tr>
+				 <tr>
+                    <td>  <a href="../../usertitle/dropColumnInTable">Drop columns</a></td>
+                </tr>
+                <tr>
+                    <td>  <a href="../../usertitle/deleteTable">Delete</a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="div-table">
+    <div class="div-table-row">
+        <div class="div-table-col" align="center">
+            <table border="1">
+
+                <tr>
+				<th colspan="2">
+                       Reports
+                    </th>
+                </tr>
+
+                <tr>
+				<td>
+                        Stored Procedures
+                    </td>
+                    <td>
+                        <a href="../../differnetqueries/callUserCountProc"> UserCount Procedure</a>
+                    </td>
+                </tr>
+                <tr>
+				<td>
+                        Stored Procedures
+                    </td>
+                    <td>
+                        <a href="../../differnetqueries/callEmployeeDetailsProc">Employees Details</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Stored Procedures
+                    </td>
+                    <td>
+                        <a href="../../differnetqueries/callSupplierDetailsProc">Supplier Details</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Stored Procedures
+                    </td>
+                    <td>
+                        <a href="../../differnetqueries/callProductDetailsProc">Product Details</a>
+                    </td>
+                </tr>
+                  <tr>
+                    <td>
+                        Stored Procedures
+                    </td>
+                    <td>
+                        <a href="../../differnetqueries/callBuyingPatternProc">Buying Pattern Details</a>
+                    </td>
+                </tr>
+				<tr>
+				  <td>
+                        Views
+                    </td>
+                    <td>
+                        <a href="../../differnetqueries/getCurrentDayOrders"> Current Day Orders</a>
+                    </td>
+                </tr>
+				<tr>
+				  <td>
+                        Function
+                    </td>
+                    <td>
+                        <a href="../../differnetqueries/getNumberOfProducts"> Number of products</a>
+                    </td>
+                </tr>
+				
+            </table>
+        </div>
+
+
+        <div class="div-table-col" align="right">
+            <table border="1">
+
+                <tr>
+                    <th>
+                        Order of deleting tables.
+                    </th>
+                </tr>
+
+				
+                <tr>
+                    <td>
+                        OrderDetails
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Orders
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ProductSuppliers
+                    </td>
+                </tr>
+                <tr>
+                    <td> Products</td>
+                </tr>
+                <tr>
+                    <td>  ProductTypes</td>
+                </tr>
+
+                <tr>
+                    <td> Suppliers</td>
+                </tr>
+                <tr>
+                    <td> Customers </td>
+                </tr>
+                <tr>
+                    <td> Employees</td>
+                </tr>
+                <tr>
+                    <td> Users</td>
+                </tr>
+                <tr>
+                    <td>UserTypes </td>
+                </tr>
+				 <tr>
+                    <td>Usertitles </td>
+                </tr
+                <tr>
+                    <td> Departments </td>
+                </tr>
+
+
+            </table>
+        </div>
+    </div>
+
+</div>
+
